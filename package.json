@@ -1,14 +1,19 @@
 {
-  "name": "zlang-support",
-  "displayName": "Zlang support",
+  "name": "xzlang-support",
+  "displayName": "zZlang Support",
   "description": "",
   "version": "0.0.1",
+  "publisher": "xZist",
   "engines": {
     "vscode": "^1.101.0"
   },
   "categories": [
     "Programming Languages"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LowLevelLore/zlang-support"
+  },
   "contributes": {
     "languages": [
       {
@@ -18,7 +23,7 @@
           "zlang"
         ],
         "extensions": [
-          ".z"
+          ".zz"
         ],
         "configuration": "./language-configuration.json"
       }
