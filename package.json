@@ -1,5 +1,5 @@
 {
-  "name": "xzlang-support",
+  "name": "zzlang-support",
   "displayName": "zZlang Support",
   "description": "",
   "version": "0.0.1",
@@ -17,10 +17,10 @@
   "contributes": {
     "languages": [
       {
-        "id": "zlang",
+        "id": "zzlang",
         "aliases": [
-          "Zlang",
-          "zlang"
+          "zZlang",
+          "zzlang"
         ],
         "extensions": [
           ".zz"
@@ -30,14 +30,14 @@
     ],
     "grammars": [
       {
-        "language": "zlang",
+        "language": "zzlang",
         "scopeName": "source.zlang",
         "path": "./syntaxes/zlang.tmLanguage.json"
       }
     ],
     "snippets": [
       {
-        "language": "zlang",
+        "language": "zzlang",
         "path": "./snippets/zlang.code-snippets"
       }
     ]
